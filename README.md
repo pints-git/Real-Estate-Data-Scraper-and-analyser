@@ -9,15 +9,15 @@ This project automates the process of scraping real estate listings from multipl
 - JSON configuration file with website details and email settings.
 
 # Architecture
-**Configuration** : A JSON file stores the list of websites to scrape, login credentials, and email settings.
-**Web Automation with Selenium**: Automates logging into real estate websites and navigating through listings.
-**Data Extraction with BeautifulSoup**: Scrapes property details from the web pages.
-**Data Storage and Analysis**: Saves the scraped data in a CSV file and performs basic analysis using Pandas.
-**Email Notifications**: Sends an email summary of new listings based on user-defined criteria.
+1. **Configuration** : A JSON file stores the list of websites to scrape, login credentials, and email settings.
+2. **Web Automation with Selenium**: Automates logging into real estate websites and navigating through listings.
+3. **Data Extraction with BeautifulSoup**: Scrapes property details from the web pages.
+4. **Data Storage and Analysis**: Saves the scraped data in a CSV file and performs basic analysis using Pandas.
+5. **Email Notifications**: Sends an email summary of new listings based on user-defined criteria.
 
 # Running the Project
-**Configuration**: Set up the config.json file with the necessary details.
-**Execution**: Run the main script main.py, which performs the following:
+1. **Configuration**: Set up the config.json file with the necessary details.
+2. **Execution**: Run the main script main.py, which performs the following:
 - Logs into each website specified in the configuration.
 - Scrapes property listings using Selenium and BeautifulSoup.
 - Aggregates the data into a CSV file.
