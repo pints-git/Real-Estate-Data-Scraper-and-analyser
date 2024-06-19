@@ -1,0 +1,25 @@
+{
+    "websites": [
+        {
+            "url": "https://example-realestate1.com/listings",
+            "login_url": "https://example-realestate1.com/login",
+            "username": "your_username1",
+            "password": "your_password1",
+            "next_button_text": "Next"
+        },
+        {
+            "url": "https://example-realestate2.com/listings",
+            "login_url": "https://example-realestate2.com/login",
+            "username": "your_username2",
+            "password": "your_password2",
+            "next_button_text": "Next"
+        }
+    ],
+    "email": {
+        "smtp_server": "smtp.example.com",
+        "smtp_port": 587,
+        "from_email": "your_email@example.com",
+        "password": "your_password",
+        "to_email": "recipient@example.com"
+    }
+}
